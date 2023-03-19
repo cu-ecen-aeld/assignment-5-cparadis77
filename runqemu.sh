@@ -3,6 +3,16 @@
 #Host forwarding: Host Port 10022 ->> QEMU Port 22 
 #Author: Siddhant Jajoo.
 
+# Debug Cparadis: try some options trying to debug qemu-system-aarch64 instance
+#    -bios none \
+#
+# Error #1: Getting this error even with 'buildroot/configs/qemu_aarch64_virt_defconfig'
+#   rom: requested regions overlap (rom bootloader. free=0x0000000040a51a00, addr=0x0000000040000000)
+#   qemu-system-aarch64: rom check and register reset failed
+#
+#       ===> May need to try VM Ubuntu v20.04
+#
+
 
 qemu-system-aarch64 \
     -M virt  \
