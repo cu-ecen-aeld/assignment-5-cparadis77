@@ -32,9 +32,7 @@
 #AESD_ASSIGNMENTS_VERSION = '44b33420a6d926510216a25ce47dc82645555814'
 #
 # Commit SHA for Assignment5 - Part2
-#AESD_ASSIGNMENTS_VERSION = '64fc7fb1e9b46423ab9cb1f1a4c1b4e75d2798bb'
-#AESD_ASSIGNMENTS_VERSION = '0bae2814f99e8e3310ce25b406bcab30067e55bd'
-AESD_ASSIGNMENTS_VERSION = '5563990a49392f782b262ec5d5a9553216098fb2'
+AESD_ASSIGNMENTS_VERSION = 'db48269e0a4b36862e359bd20ee8d2da229453c5'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
